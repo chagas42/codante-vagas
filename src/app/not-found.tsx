@@ -1,5 +1,6 @@
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export default function NotFound() {
   return (
@@ -7,7 +8,7 @@ export default function NotFound() {
       <h2 className="text-4xl font-display font-black ">
         Nada encontrado aqui...
       </h2>
-      <img
+      <Image
         className="mx-auto w-sm"
         src="/boat.png"
         alt="ilustração de um barco"

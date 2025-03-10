@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
           Busque Uma Vaga
         </Button>
       </a>
-      <img
+
+      <Image
         src="/people.png"
         alt="Ilustração de pessoas"
         className="mx-auto mt-12"
