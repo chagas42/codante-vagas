@@ -14,7 +14,7 @@ export default function Home() {
       </a>
       <div className="">
         <Image
-          width={220}
+          width={420}
           height={300}
           style={{
             width: '100%',
