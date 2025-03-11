@@ -1,4 +1,5 @@
-import JobItem, { Job } from '@/components/cards/job-item';
+import JobItem from '@/components/cards/job-item';
+import { Job } from '@/lib/types';
 
 async function fetchJobs() {
   const res = await fetch('https://apis.codante.io/api/job-board/jobs');
