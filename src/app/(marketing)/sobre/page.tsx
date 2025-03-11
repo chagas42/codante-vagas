@@ -26,7 +26,17 @@ export default function Sobre() {
           </p>
         </div>
       </div>
-      <Image src="/people1.png" alt="Ilustração de pessoas" className="w-3xl" />
+      <Image
+        width={420}
+        height={300}
+        style={{
+          width: '100%',
+          height: 'auto',
+        }}
+        src="/people1.png"
+        alt="Ilustração de pessoas"
+        className="w-3xl"
+      />
     </section>
   );
 }
