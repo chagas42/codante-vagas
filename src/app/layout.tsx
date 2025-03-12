@@ -3,7 +3,7 @@ import './globals.css';
 import { Navbar } from '@/components/layout/navbar';
 import { Footer } from '@/components/layout/footer';
 import { Maven_Pro } from 'next/font/google';
-
+import 'react-loading-skeleton/dist/skeleton.css';
 export const metadata: Metadata = {
   title: 'CodanteVagas',
   description:
