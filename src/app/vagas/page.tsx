@@ -2,9 +2,7 @@ import JobItem from '@/components/cards/job-item';
 import { Job } from '@/lib/types';
 
 async function fetchJobs() {
-  const res = await fetch(
-    'https://apis.codante.io/api/job-board/jobs?slow=true'
-  );
+  const res = await fetch('https://apis.codante.io/api/job-board/jobs');
 
   if (!res.ok) {
     throw new Error('Failed to fetch jobs');
